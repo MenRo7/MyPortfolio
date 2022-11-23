@@ -30,7 +30,7 @@ function BackgroundCircles({}: Props) {
         <div className="absolute rounded-full border border-[#333333] h-[800px] w-[800px]
           mt-52"/>
     </motion.div>
-  )
+  );
 }
 
 export default BackgroundCircles;
