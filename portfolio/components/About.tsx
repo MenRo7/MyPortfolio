@@ -44,11 +44,14 @@ export default function About({}: Props) {
 
         <div className="space-y-10 px-0 md:px-10">
             <h4 className="text-4xl font-semibold"> 
-              Here is a <span className="underline decoration-[#0a71f7]">little</span>
-              {" "}background
+              Here is a little <span className="underline decoration-[#0a71f7]">background</span>
             </h4>
-            <p className="text-base">
-              I'm Romain. I'm a 22 years old french student. I'm currently studying computer Science
+            <p className="text-sm">
+              I'm Romain. I'm a 22 years old french student. I'm currently 
+              studying computer Science
+              
+              
+              
               at the University of Reims Champagne-Ardenne. I got my Science bachelor in 2018. I'm self-taught in web development and 
               I apsire to make it my job. My other hobbies are music, guitar, drums and video games.
 

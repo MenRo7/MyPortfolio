@@ -23,7 +23,7 @@ export default function Header({}: Props) {
                 duration: 1.5,
             }}
             className="flex flex-row items-center">
-            {/* Social Icons */}
+        
             <SocialIcon 
                 url="https://github.com/MenRo7"
                 fgColor='gray'
