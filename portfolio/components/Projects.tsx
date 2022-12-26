@@ -23,12 +23,12 @@ function Projects({}: Props) {
             Projects
         </h3>
 
-        <div>
-            
-        </div>
-
-        <div className="w-full flex space-x-5 overflow overflow-x-scroll p-10 snap-x 
-        snap-mandatory">
+        <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x 
+        snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#0a71f7]/80">
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
             <ProjectCard />
             <ProjectCard />
         </div>

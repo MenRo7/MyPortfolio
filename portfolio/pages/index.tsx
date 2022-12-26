@@ -7,6 +7,9 @@ import WorkExperience from '../components/WorkExperience';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import ContactMe from '../components/ContactMe';
+import Link from 'next/link';
+import { HiChevronDoubleUp } from "react-icons/hi2";
+
 
 const Home: NextPage = () => {
   return (
@@ -43,6 +46,15 @@ const Home: NextPage = () => {
       <section id="contact" className="snap-center">
         <ContactMe />
       </section>
+
+      <Link href="#hero">
+        <footer className="sticky bottom-5 w-full cursor-pointer">
+          <div className="flex items-center justify-center">
+            <HiChevronDoubleUp 
+              className="h-10 w-10 hover:text-[#0a71f7] cursor-pointer"/>
+          </div>
+        </footer>
+      </Link>
     </div>
   );
 };
